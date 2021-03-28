@@ -1,4 +1,6 @@
-export const fetchData = ({
-    type: FETCH_DATA,
+import { LOAD_GROUPS } from "./constants";
+
+export const loadProducts = () => ({
+    type: LOAD_GROUPS,
     payload: {}
 })

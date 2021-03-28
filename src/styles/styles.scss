@@ -1,0 +1,48 @@
+.groups {
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+}
+
+.group {
+    &__container {
+        margin: 10px;
+        flex-basis: 45%;
+        border: 1px solid #d8d8ff7a;
+        border-radius: 5px;
+        background-color: #d8d8ff7a;
+
+    }
+
+    &__header {
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    &__content {
+        background-color: #ffffff;
+    }
+}
+
+.products-list {
+}
+
+.product {
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        border-bottom: 1px solid #e7e7e7;
+
+        &:last-child {
+            border-bottom: 0;
+        }
+    }
+
+    &-name,
+    &-coast {
+        padding: 10px;
+    }
+}

@@ -1,13 +1,11 @@
 import './App.scss';
-import AppHeader from './components/header';
 import Basket from './components/basket';
-import Product from './components/product';
+import Groups from './components/groups/groups';
 
 function App() {
   return (
     <div className="App">
-      <AppHeader />
-      <Product />
+      <Groups />
       <Basket />
     </div>
   );

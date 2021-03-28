@@ -1,8 +1,9 @@
 
 import data from "./data.json";
+import names from "./names.json";
 
-const fetchData =  () => {
-    return data.Value
+const fetchGroups =  () => {
+    return names.Value
 }
 
-export default fetchData
+export default fetchGroups
